@@ -8,6 +8,18 @@ import requests
 URL = "http://127.0.0.1:8000"
 
 # TODO 1: pide el resumen:  resumen = requests.get(f"{URL}/resumen", timeout=5).json()
+resumen = requests.get(f"{URL}/resumen", timeout=5).json()
+
 # TODO 2: imprime cuántas ventas hay y el total en soles con print(...)
+print(f"Cantidad de ventas: {resumen['ventas']}")
+print(f"Total en soles: S/ {resumen['total_pen']:.2f}")
+
 # TODO 3: pide solo las ventas en dólares:  requests.get(f"{URL}/ventas", params={"moneda": "usd"}, timeout=5).json()
 #         e imprime cuántas son (len)
+ventas_usd = requests.get(
+    f"{URL}/ventas",
+    params={"moneda": "usd"},
+    timeout=5
+).json()
+
+print(f"Cantidad de ventas en dólares: {len(ventas_usd)}")
