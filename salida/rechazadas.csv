@@ -1,0 +1,5 @@
+id,producto,monto,moneda,motivo
+5,Monitor,,PEN,monto_invalido
+10,Webcam,abc,EUR,monto_invalido
+13,Audífonos,-50,EUR,monto_invalido
+16,Webcam,361.97,XYZ,moneda_invalida
