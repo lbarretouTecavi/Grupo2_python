@@ -1,0 +1,18 @@
+GRUPO 2 - TIENDA ONLINE
+Sesion 10 - Proyecto integrador (2 horas)
+
+QUE HAY EN ESTA CARPETA
+  Guia - Grupo 2 - Tienda online.docx   <- empiecen por aqui: explica todo paso a paso
+  datos/                  los datos de entrada del caso
+  proyecto.py             PASO 1 - leer los datos y calcular   (completar los TODO)
+  app.py                  PASO 2 - crear la API                (completar los TODO)
+  cliente.py              PASO 3 - consultar su propia API     (completar los TODO)
+  test_proyecto.py        PASO 4 - pruebas con pytest          (completar los TODO)
+  requirements.txt        librerias a instalar
+
+COMO EMPEZAR
+  1. cd "Grupo 2 - Tienda online"
+  2. pip install -r requirements.txt
+  3. Abran la guia y sigan el Paso 0.
+
+AL TERMINAR CADA PASO: commit + push a main (icono de ramas / Source Control).

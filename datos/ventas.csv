@@ -1,0 +1,25 @@
+id,producto,monto,moneda
+1,Teclado,108.41,EUR
+2,Audífonos,85.94,PEN
+3,Monitor,320.14, usd 
+4,Teclado,118.67,PEN
+5,Monitor,,PEN
+6,Webcam,278.83,USD
+7,Mouse,237.2,eur
+8,Webcam,116.63,USD
+9,Teclado,84.5,PEN
+10,Webcam,abc,EUR
+11,Webcam,38.55,USD
+12,Webcam,143.9,PEN
+13,Audífonos,-50,EUR
+14,Webcam,69.76,USD
+15,Teclado,181.29,USD
+16,Webcam,361.97,XYZ
+17,Monitor,209.92,EUR
+18,Audífonos,167.95,PEN
+19,Monitor,231.86,USD
+20,Webcam,24.7,EUR
+21,Webcam,231.1,EUR
+22,Audífonos,306.66,EUR
+23,Audífonos,48.92,USD
+24,Monitor,52.95,USD
